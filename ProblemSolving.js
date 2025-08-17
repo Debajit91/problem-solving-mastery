@@ -28,3 +28,11 @@ const isPallindrome = (str) =>{
 }
 // console.log(isPallindrome('Madam'));
 // console.log(isPallindrome('hello'));
+
+
+// Problem -4
+const findMax = (arr)=>{
+    const max = Math.max(...arr);
+    return max;
+}
+// console.log(findMax([5,2,9,3]));
